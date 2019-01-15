@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Ride</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        navigator.geolocation.getCurrentPosition(function (position) {
+
+            document.write(position.coords.latitude + "," + position.coords.logitude);
+        });
+
+    </script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="drive.html">Drive</a></li>
+                <li><a href="ride.html" class="active">Ride</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" id="more1">More</a></li>
+            </ul>
+            <a href="index.html"><img id='my-ride' src="img/myride.png" alt="my ride" style='border:none'></a>
+        </div>
+    </nav>
+    <div class='container'>
+
+        <p class="more">
+            Blog services Contact <span id="close">x</span><br>
+            Map Camping Tourism <br>
+            Site Beyond rashhour <br>
+        </p>
+    </div>
+
+
+    <div class="container">
+        <table class="table">
+            <caption>Ride</caption>
+            <tr>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Distance</th>
+                <th>Amount/UGX</th>
+            </tr>
+            <tr>
+                <td>Namuwongo</td>
+                <td>Town</td>
+                <td>2km</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Bugolobi</td>
+                <td>Town</td>
+                <td>3km</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>Ggaba</td>
+                <td>Town</td>
+                <td>10km</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Nsambya</td>
+                <td>Town</td>
+                <td>1.5km</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>kisugu</td>
+                <td>Town</td>
+                <td>2km</td>
+                <td>6000</td>
+            </tr>
+        </table>
+        <div class="drive">
+            <h1>Select a Ride</h1>
+            <table id="table2">
+                <tr>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                </tr>
+                <tr>
+                    <td>
+
+                        <select name="dropdown" id="dropdown">
+                            <option value="Town">Town</option>
+                            <option value="Town">Namuwongo</option>
+                            <option value="Town">Kisugu</option>
+                            <option value="Town">Nsambya</option>
+                            <option value="Town">Etebbe</option>
+                            <option value="Town">Kabala</option>
+                            <option value="Town">Bugolobi</option>
+                        </select>
+                    </td>
+
+
+                    <td>
+                        <select name="dropdown" id="dropdown">
+                            <option value="Town">Town</option>
+                            <option value="Town">Namuwongo</option>
+                            <option value="Town">Kisugu</option>
+                            <option value="Town">Nsambya</option>
+                            <option value="Town">Etebbe</option>
+                            <option value="Town">Kabala</option>
+                            <option value="Town">Bugolobi</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            </select>
+
+            <input class="button" type="submit">
+
+        </div>
+        <img id='phone2' src="img/phone2.jpeg" alt="phone">
+
+    </div>
+    <div class="footer">
+        <div class="pagination">
+            <a href="index.html">1</a>
+            <a href="drive.html">2</a>
+            <a href="ride.html" class="active">3</a>
+            <a href="login.html">4</a>
+            <a href="signup.html">5</a>
+        </div>
+        <footer id="main-footer">
+            <p>My Ride copyright &copy 2018</p>
+
+        </footer>
+    </div>
+
+<script src="script.js"></script>
+    
+</body>
+
+</html>
