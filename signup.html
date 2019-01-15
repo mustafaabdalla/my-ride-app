@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Ride</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+       /* .pagination{
+
+             position: absolute;
+             top: 1000px;
+
+       }*/
+    
+    </style>
+    <script>
+    
+    
+    </script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#"></a></li>
+
+            </ul>
+            <img id='my-ride' src="img/myride.png" alt="my ride">
+        </div>
+    </nav>
+    <div class="container">
+
+        <form class="form">
+
+            <div class="form-group">
+                <label for="#">User Name:</label>
+                <input id="name" type="text">
+            </div>
+            <div class="form-group">
+                <label for="#">Email:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="#">Password:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="#">Message:</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+
+
+
+            <input class='button' type="submit">
+        </form>
+        <div id="phon">
+            <img src="img/phone.jpg" alt="phone">
+            <h2>Sign up Now</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut cum voluptatibus eius quo numquam sit
+                facilis quos labore. Quos?
+            </p>
+        </div>
+
+
+        <div class="clr"></div>
+    </div>
+    <div class="footer">
+        <div class="pagination">
+            <a href="index.html">1</a>
+            <a href="drive.html">2</a>
+            <a href="ride.html">3</a>
+            <a href="login.html">4</a>
+            <a href="signup.html" class="active">5</a>
+        </div>
+        <footer id="main-footer">
+            copyright &copy; My Ride 2019
+        </footer>
+
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            document.querySelector('.form').onsubmit = function () {
+                const name = document.querySelector('#name').value;
+                alert(`${name} your are successfully created an account`);
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,519 @@
+
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn{
+    border: 1px solid #0f0;
+    color:#0f0;
+    padding: 15px 30px;
+}
+.btn:hover{
+   
+    background-color: aquamarine;
+    color: #f00;
+}
+
+a{
+    text-decoration: none;
+color: #fff;
+    
+}
+
+#navbar{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    
+}
+
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 700px;
+}
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+#navbar a:hover{
+
+    color: #0f0;
+}
+#navbar a:active{
+
+    color: #f00;
+}
+
+#navbar a.active{
+
+    color: #0f0;
+}
+
+
+
+#my-ride{
+       
+    position: absolute;
+    width: 100px;
+    top: 0;
+    margin: 0;
+}
+
+#show-case{
+    background: url('img/img3.jpg');
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding-top:10px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  
+}
+
+#showcase-item{
+      
+background: rgba(0,0,0,0.7);
+border-radius: 5px;
+padding: 30px;
+width: 30%;
+margin: auto;
+margin-top: 60px;
+       
+       
+
+}
+
+   
+.link{
+    position: fixed;
+    top: 600px;
+    
+}
+.link2{
+    position: fixed;
+    top: 650px;
+    
+}
+
+.link3{
+    position: fixed;
+    top: 700px;
+    
+}
+
+#main-section{
+
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#img2{
+
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+}
+#main-section2{
+    background: url('img/map.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    opacity: .5; 
+    margin-top: 20px;
+    
+}
+
+#main-section2 h2{
+        
+    color: #000;
+    padding: 20px;
+    font-size: 50px;
+    background-color: grey;
+}
+
+#main-section3{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 205px;
+}
+#img4{
+
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.block{
+
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.block .block-txt{
+
+    padding: 20px;
+}
+.block h3{
+    color: green;
+}
+.footer{
+    margin-top: 500px;
+    text-align: center;
+    padding: 0;
+}
+#main-footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    font-size: 1em;
+    
+}
+
+@media(max-width:600px){
+        
+    
+    #main-section{
+         width: 100%;
+         float: none;
+    }
+    #img2{
+       width: 100%;
+       float: none;
+    }
+
+    #main-section3{
+       
+        width: 100%;
+        float: none;
+    }
+
+    #img4{
+    width: 100%;
+    float: none;
+    }
+
+
+    .block{
+
+     width: 100%;
+     float: none;
+     
+    }
+
+    #showcase-item{
+        
+   width: 100%;
+               
+        
+        }
+
+    
+#main-section2 h2{
+        
+ 
+    width: 100%;
+line-height: 1em;
+
+} 
+#navbar li{
+    display: block;
+}
+.container{
+
+   overflow: visible;
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 200px;
+}
+    
+    
+}
+@media(max-width:900px){
+    #showcase-item{
+        
+        width: 100%;
+                    
+             
+             }
+             #navbar ul{
+               
+                margin-left: 200px;
+
+           }
+
+           #main-section2 h2{
+        
+ 
+            width: 100%;
+        line-height: 1em;
+        
+        } 
+
+}
+
+@media(max-width:2000px){
+
+
+    #main-section2 h2{
+        
+ 
+        width: 100%;
+    line-height: 1em;
+    
+    }
+}
+
+
+.form{
+    
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin-top: 40px;
+  box-sizing: border-box;
+ 
+  
+}
+#phon{
+    width: 50%;
+    height: 50%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 20px;
+    
+    
+}
+#phon img{
+    border-radius: 200px;
+}
+.form .form-group{
+
+       padding-bottom: 15px;
+       display: block;
+}
+
+.form input[type='text'], .form textarea{
+
+padding: 8px;
+width: 100%;
+border-radius: 5px;
+}
+.form input:focus{
+
+color: #0f0;
+outline-color: #0f0;
+outline-style: double;
+
+}
+.form textarea:focus{
+
+    color: #00f;
+    outline-color: #0f0;
+    outline-style: double;
+    
+    }
+.form label{
+
+    font-weight: bold;
+}
+
+.button{
+
+background: #333;
+color: #fff;
+padding: 12px 17px;
+border: none;
+}
+
+@media(max-width:600px){
+    .form{
+    
+        width: 100%;
+        float: none;
+       
+        
+      }
+      #phon{
+    width: 100%;
+    float: none;
+          
+      }
+
+}
+
+.table{
+
+    margin-top: 20px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table th{
+    background: #555;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.table tr:nth-child(even){
+
+    background-color: #fff;
+}
+.table tr:hover{
+
+    color: #0f0;
+}
+
+
+.table td{
+padding: 20px;
+  
+}
+
+.table caption{
+
+    font-weight: bolder;
+}
+
+.drive{
+
+    margin-top: 40px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+   
+    
+  
+}
+.drive h1{
+    text-align: center;
+    background: #555;
+    color: #fff;
+    padding: 8px;
+}
+.drive th{
+    text-align: left;
+    font-weight: bold;
+}
+#phone2{
+    margin-top: 40px;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.drive #table2{
+
+    width: 100%;
+
+}
+
+ #table td{
+    padding: 20px;
+}
+
+.drive select{
+
+    padding: 8px;
+}
+
+.drive input{
+
+    margin-top: 20px;
+}
+
+.pagination{
+
+ display: inline-block;
+
+}
+.pagination a{
+    color: #000;
+    float: left;
+    padding: 8px 18px;
+}
+
+.pagination a.active{
+
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+@media(max-width:600px){
+
+    .table{
+
+        overflow-x: auto;
+    }
+    .drive{
+
+   width: 100%;
+   float: none;
+       
+    }
+
+    #phone2{
+      width: 100%;
+      float: none;
+    }
+
+}
+
+.more{
+background-color: #555;
+color: #fff;
+padding: 10px;
+word-spacing: 12em;
+position: absolute;
+top: 58px;
+left: 300px;
+display: none;
+}
+
